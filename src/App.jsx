@@ -14,18 +14,18 @@ function App() {
  
   return (
     <>
-      {/* <div>
+      <div>
         <Props_ex name="peter" age={23}/>
         <Conditional1 isLoggedIn={true} />
         <Conditional2 isLoggedIn={false} />
-      </div> */}
+      </div>
 
 
 
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navbar/>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
