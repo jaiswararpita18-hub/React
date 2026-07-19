@@ -9,6 +9,8 @@ import {BrowserRouter} from 'react-router-dom'
 import Props_ex from './components/Props_ex'
 import Conditional1 from './components/Conditional1'
 import Conditional2 from './components/Conditional2'
+import Footer from './components/Footer'
+import FormHandling from './components/FormHandling'
 
 function App() {
  
@@ -22,7 +24,8 @@ function App() {
 
 
 
-
+<Footer />
+<FormHandling/>
       {/* <BrowserRouter>
       <Navbar/>
       </BrowserRouter> */}
