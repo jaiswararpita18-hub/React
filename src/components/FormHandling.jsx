@@ -21,7 +21,7 @@ const FormHandling = () => {
     const[user,setUser]=useState({uname:"",upass:""})
     const handleSubmit = (e)=>{
         e.preventDefault()
-        alert('Welcome...${user.uname}')
+        alert(`Welcome...${user.uname}`)
     }
     
   return (

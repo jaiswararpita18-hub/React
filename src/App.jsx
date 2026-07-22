@@ -11,6 +11,11 @@ import Conditional1 from './components/Conditional1'
 import Conditional2 from './components/Conditional2'
 import Footer from './components/Footer'
 import FormHandling from './components/FormHandling'
+import FetchMultiPost from './components/FetchMultiPost'
+import FetchSinglePost from './components/FetchSinglePost'
+import UseRed_ex from './components/UseRed_ex'
+import UseState_ex2 from './components/UseState_ex2'
+import ListRendering from './components/ListRendering'
 
 function App() {
  
@@ -26,6 +31,11 @@ function App() {
 
 <Footer />
 <FormHandling/>
+<FetchMultiPost/>
+<FetchSinglePost/>
+<UseRed_ex/>
+<UseState_ex2/>
+<ListRendering/>
       {/* <BrowserRouter>
       <Navbar/>
       </BrowserRouter> */}

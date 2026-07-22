@@ -30,7 +30,7 @@ const Footer = () => {
         setEmps([
             ...emps,
             {
-                id:emps.length+1 ,
+                id:emps.length + 1 ,
                 name :ename,
                 sal:esal
             }
